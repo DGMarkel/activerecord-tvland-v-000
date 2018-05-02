@@ -7,7 +7,7 @@ class Actor < ActiveRecord::Base
   end
 
   def list_roles
-    self.characters.map do |attribute| attribute.show if attribute = 1 end
+    self.characters.map do |attribute| attribute.show end
   end
 
 end
