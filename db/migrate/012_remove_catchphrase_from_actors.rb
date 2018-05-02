@@ -1,4 +1,4 @@
-class RemoveCatchphraseFromActors < ActiveRecord::Migration[4.2]
+class RemoveCatchphraseFromActorsTwo < ActiveRecord::Migration[4.2]
 
   def change
     remove_column(:actors, :catchphrase)
