@@ -6,7 +6,7 @@ class Actor < ActiveRecord::Base
   end
 
   def list_roles
-    self.characters.pluck(:name)
+    self.find(characters.name, shows.name)
   end
 
 end
