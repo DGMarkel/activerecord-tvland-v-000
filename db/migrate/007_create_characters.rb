@@ -1,10 +1,10 @@
-class CreateCharacters 
+class CreateCharacters
 
-  def change 
+  def change
     create_table :characters do |t|
       t.string :name
       t.integer :actor_id
     end
-  end 
+  end
 
-end 
+end
